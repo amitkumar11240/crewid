@@ -1,0 +1,105 @@
+body {
+    padding : 10px ;
+    
+  }
+  
+  #exTab1 .tab-content {
+    color : white;
+    
+    padding : 5px 15px;
+  }
+  
+  #exTab2 h3 {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+  
+  /* remove border radius for the tab */
+  
+  #exTab1 .nav-pills > li > a {
+    border-radius: 0;
+  }
+  
+  /* change border radius for the tab , apply corners on top*/
+  
+  #exTab3 .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+  }
+  
+  #exTab3 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+  .tabmenu{
+      margin:20px;
+  }
+  .tabanchor{
+      padding:15px;
+  }
+  #second{
+    display:none;
+  }
+  .identificationpara{
+    padding-left:20px;
+  }
+
+  /* for physical address  */
+  
+  #show_suggestion,#show_postal_suggestion{
+    position: relative;
+    border: 1px solid white;
+    padding: 10px 0px;
+}
+
+#show_suggestion > ul, #show_postal_suggestion > ul{
+    list-style: none;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    background: white;
+    border: 1px solid #f2f2f2;
+    padding: 10px 0px;
+    display: block;
+    width: 100%;
+}
+#show_suggestion > ul >li , #show_postal_suggestion > ul > li{
+    margin: 10px 5px;
+    border-top: 1px solid #f2f2f2;
+    padding: 10px;
+    cursor: pointer;
+}
+#show_suggestion > ul > li > a , #show_postal_suggestion > ul > li > a{
+        display: block;
+        color: darkgrey !important;
+}
+  
+/* for mailing address  */
+#mailing_show_suggestion,#mailing_show_postal_suggestion{
+  position: relative;
+  border: 1px solid white;
+  padding: 10px 0px;
+}
+
+#mailing_show_suggestion > ul, #mailing_show_postal_suggestion > ul{
+  list-style: none;
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  background: white;
+  border: 1px solid #f2f2f2;
+  padding: 10px 0px;
+  display: block;
+  width: 100%;
+}
+#mailing_show_suggestion > ul >li , #mailing_show_postal_suggestion > ul > li{
+  margin: 10px 5px;
+  border-top: 1px solid #f2f2f2;
+  padding: 10px;
+  cursor: pointer;
+}
+#mailing_show_suggestion > ul > li > a , #mailing_show_postal_suggestion > ul > li > a{
+      display: block;
+      color: darkgrey !important;
+}
